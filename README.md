@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Esse projeto foi desenvolvido por conta desse [vídeo](https://www.youtube.com/watch?v=GTMEuHxh8aQ) da [Rocketseat](https://www.rocketseat.com.br/).
 
-Dê uma olhada no projeto clicando nesse [link](https://matheusfdosan.github.io/validadando-formulario/).
+Dê uma olhada no projeto clicando nesse [link](https://matheusfdosan.github.io/validando-formulario/).
 
 ## Contato
 
