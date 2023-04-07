@@ -1,0 +1,93 @@
+:root {
+  --primary-color: #fd951f;
+  --text-color: #f0f0f5;
+  --bg-color: #130f0d;
+  --light-color: #ffffff66;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+  height: 100%;
+}
+
+body {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+form {
+  background-color: #ffffff08;
+  padding: 20px 40px;
+  min-width: 400px;
+  width: 70%;
+  height: 80%;
+  margin: auto;
+}
+
+form h2 {
+  margin-bottom: 32px;
+}
+
+form div.input {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+input,
+button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  padding: 16px 0;
+  border: none;
+  border-bottom: 1px solid var(--primary-color);
+  background-color: transparent;
+  outline: none;
+  color: var(--text-color);
+  font-size: 1em;
+}
+
+form button {
+  margin-top: 16px;
+  background-color: var(--primary-color);
+}
+
+input ~ label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+
+  color: #ffffff99;
+
+  transition: 0.4s;
+}
+
+input:focus ~ label,
+input:valid ~ label {
+  top: -3px;
+  font-size: 0.8em;
+  letter-spacing: 0.1em;
+}
+
+form div.input span.error {
+  display: flex;
+  padding: 0;
+  background-color: #ff000033;
+}
+
+form div.input span.error.active {
+  border: 1px solid #ff0000;
+  padding: 0.4em;
+}
